@@ -7,7 +7,7 @@
 
 
 disp('====Simulating data for 2 brain regions from 25 subjects by creating random normally distributed time series for each===')
-disp('==Each region''s time series consists of: Shared (across regions) activity, unshared activity, unshared noise (MR & physiological)==')
+disp('==Each region''s time series consists of: Shared (across regions) activity, unshared activity, unshared noise (e.g., measurement error & physiological)==')
 disp(' ')
 
 
@@ -119,7 +119,7 @@ disp(' ')
 
 
 %% Increased unshared activity amplitude (2x) in both regions
-disp('==Increased non-shared activity amplitude (2x) in both regions==')
+disp('==Increased unshared activity amplitude (2x) in both regions==')
 
 %Increasing coupling between X and Y, resulting in increased communication in both directions
 X_sim = X_baseline + unsharedX_inc;
@@ -156,7 +156,7 @@ disp(' ')
 
 
 %% Increased shared (2x) & unshared (2x) activity amplitude in both regions
-disp('==Increased shared (2x) & non-shared (2x) activity amplitude in both regions==')
+disp('==Increased shared (2x) & unshared (2x) activity amplitude in both regions==')
 
 %Increasing coupling between X and Y, resulting in increased communication in both directions
 X_sim = X_baseline + unsharedX_inc + shared_inc;
