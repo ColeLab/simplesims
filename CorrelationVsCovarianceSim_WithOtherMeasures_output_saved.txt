@@ -1,0 +1,218 @@
+[1] "Original data:"
+[1] "Pearson correlation, Fz:"
+[1] 0.5157535
+[1] "Covariance:"
+[1] 0.9643898
+Call:
+lm(formula = s1_ns1_nsN1_X ~ s1_ns1_nsN1_Y)
+
+Coefficients:
+  (Intercept)  s1_ns1_nsN1_Y  
+       0.0181         0.4669  
+
+ssion/PPI, Beta X on Y:"
+[1] 0.4829983
+[1] "Regression/PPI, Beta Y on X:"
+[1] 0.4645055
+[1] "Spearman correlation:"
+[1] 0.4488111
+[1] "==Equal increase in shared & unshared variance amplitude (2x) in both regions (2x shared signal, 2x unshared signal, 1x noise):"
+[1] "Pearson corr diff, Fz:"
+[1] 0.01669106
+T-value:  0.7961061 , p-value: 0.4300011 
+[1] "Covariance diff:"
+[1] 3.083551
+T-value:  18.81767 , p-value: 1.851383e-16 
+[1] "Coherence diff:"
+[1] 0.00820303
+T-value:  0.5984044 , p-value: 0.5525189 
+[1] "Spectral covariance (scov) diff:"
+[1] 13.82388
+T-value:  6.005449 , p-value: 3.31347e-06 
+[1] "Mutual information:"
+[1] 0.0005959086
+T-value:  0.03825999 , p-value: 0.9696418 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] 0.004709517
+T-value:  0.2577011 , p-value: 0.7977393 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] 0.01926862
+T-value:  1.069341 , p-value: 0.2904427 
+[1] "Spearman correlation:"
+[1] 0.01674546
+T-value:  0.9337194 , p-value: 0.3552094 
+[1] "==Increased shared variance amplitude (2x), both regions:"
+[1] "Pearson corr diff, Fz:"
+[1] 0.5299148
+T-value:  28.35693 , p-value: 1.357549e-31 
+[1] "Covariance diff:"
+[1] 2.932603
+T-value:  33.8737 , p-value: 2.963393e-25 
+[1] "Coherence diff:"
+[1] 0.3238845
+T-value:  27.61017 , p-value: 4.997925e-31 
+[1] "Spectral covariance (scov) diff:"
+[1] 13.25429
+T-value:  14.8378 , p-value: 9.09633e-14 
+[1] "Mutual information:"
+[1] 0.2191648
+T-value:  12.51085 , p-value: 1.226867e-16 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] 0.3021602
+T-value:  18.73848 , p-value: 1.202198e-22 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] 0.3096468
+T-value:  22.8141 , p-value: 1.260738e-24 
+[1] "Spearman correlation:"
+[1] 0.315864
+T-value:  23.35322 , p-value: 4.33976e-24 
+[1] "==Increase in shared variance amplitude (2x), decrease in unshared variance amplitude (0.5x) in both regions (2x shared signal, 0.5x unshared signal, 1x noise):"
+[1] "Pearson corr diff, Fz:"
+[1] 1.128183
+T-value:  59.33181 , p-value: 1.434463e-46 
+[1] "Covariance diff:"
+[1] 3.097
+T-value:  33.0703 , p-value: 1.958616e-24 
+[1] "Coherence diff:"
+[1] 0.5459237
+T-value:  58.33068 , p-value: 7.029123e-35 
+[1] "Spectral covariance (scov) diff:"
+[1] 14.89622
+T-value:  20.11356 , p-value: 6.932835e-17 
+[1] "Mutual information:"
+[1] 0.566463
+T-value:  30.89759 , p-value: 1.310625e-32 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] 0.4494451
+T-value:  32.23727 , p-value: 1.464651e-25 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] 0.458508
+T-value:  37.17203 , p-value: 3.150116e-27 
+[1] "Spearman correlation:"
+[1] 0.4693274
+T-value:  38.60369 , p-value: 3.102138e-25 
+[1] "==Increased unshared variance amplitude (2x) in both regions:"
+[1] "Pearson corr diff, Fz:"
+[1] -0.3137137
+T-value:  -15.94339 , p-value: 8.939918e-21 
+[1] "Covariance diff:"
+[1] 0.07319917
+T-value:  0.8956453 , p-value: 0.3774809 
+[1] "Coherence diff:"
+[1] -0.1501646
+T-value:  -14.78038 , p-value: 5.615368e-18 
+[1] "Spectral covariance (scov) diff:"
+[1] 1.197199
+T-value:  1.836475 , p-value: 0.07816618 
+[1] "Mutual information:"
+[1] -0.05551758
+T-value:  -3.401577 , p-value: 0.001359612 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] -0.2896264
+T-value:  -15.3487 , p-value: 4.103495e-20 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] -0.2603659
+T-value:  -14.29068 , p-value: 1.464273e-18 
+[1] "Spearman correlation:"
+[1] -0.2623556
+T-value:  -14.50633 , p-value: 5.807024e-19 
+[1] "==Decreased unshared variance amplitude (0.5x) in both regions:"
+[1] "Pearson corr diff, Fz:"
+[1] 0.5105916
+T-value:  23.84728 , p-value: 1.415868e-27 
+[1] "Covariance diff:"
+[1] 0.05955417
+T-value:  1.68447 , p-value: 0.09908037 
+[1] "Coherence diff:"
+[1] 0.3024948
+T-value:  22.73072 , p-value: 7.20915e-27 
+[1] "Spectral covariance (scov) diff:"
+[1] 0.2635227
+T-value:  2.140128 , p-value: 0.03775468 
+[1] "Mutual information:"
+[1] 0.2069769
+T-value:  12.63584 , p-value: 7.083204e-17 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] 0.2915604
+T-value:  16.26375 , p-value: 3.89941e-21 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] 0.3045876
+T-value:  19.15496 , p-value: 4.322026e-24 
+[1] "Spearman correlation:"
+[1] 0.3072159
+T-value:  22.5202 , p-value: 7.841195e-24 
+[1] "==Decrease in shared variance amplitude (0.5x), increase in unshared variance amplitude (2x) in both regions (0.5x shared signal, 2x unshared signal, 1x noise):"
+[1] "Pearson corr diff, Fz:"
+[1] -0.4206576
+T-value:  -22.58823 , p-value: 3.554633e-27 
+[1] "Covariance diff:"
+[1] -0.5539454
+T-value:  -8.853194 , p-value: 1.625194e-10 
+[1] "Coherence diff:"
+[1] -0.160495
+T-value:  -14.94211 , p-value: 5.3095e-19 
+[1] "Spectral covariance (scov) diff:"
+[1] -0.01542837
+T-value:  -0.05357161 , p-value: 0.9576312 
+[1] "Mutual information:"
+[1] -0.09023965
+T-value:  -5.970582 , p-value: 3.170679e-07 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] -0.3879008
+T-value:  -20.95512 , p-value: 8.550318e-26 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] -0.3701504
+T-value:  -21.77618 , p-value: 2.019572e-26 
+[1] "Spearman correlation:"
+[1] -0.3600307
+T-value:  -20.41392 , p-value: 3.851241e-25 
+[1] "==Decreased shared variance amplitude (0.5x), both regions:"
+[1] "Pearson corr diff, Fz:"
+[1] -0.3438948
+T-value:  -17.4238 , p-value: 2.399849e-22 
+[1] "Covariance diff:"
+[1] -0.7391381
+T-value:  -21.63578 , p-value: 1.70971e-24 
+[1] "Coherence diff:"
+[1] -0.1474051
+T-value:  -13.57509 , p-value: 1.413198e-17 
+[1] "Spectral covariance (scov) diff:"
+[1] -0.8177479
+T-value:  -7.799922 , p-value: 6.933984e-09 
+[1] "Mutual information:"
+[1] -0.05619492
+T-value:  -3.528254 , p-value: 0.0009372692 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] -0.3101456
+T-value:  -15.98513 , p-value: 9.783287e-21 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] -0.2981806
+T-value:  -16.9662 , p-value: 1.097825e-21 
+[1] "Spearman correlation:"
+[1] -0.2841796
+T-value:  -15.6374 , p-value: 3.283284e-20 
+[1] "==Equal decrease in shared & unshared variance amplitude (0.5x) in both regions (0.5x shared signal, 0.5x unshared signal, 1x noise):"
+[1] "Pearson corr diff, Fz:"
+[1] -0.03254975
+T-value:  -1.582137 , p-value: 0.1203082 
+[1] "Covariance diff:"
+[1] -0.7162277
+T-value:  -23.93409 , p-value: 5.302906e-21 
+[1] "Coherence diff:"
+[1] -0.01781323
+T-value:  -1.329925 , p-value: 0.1900368 
+[1] "Spectral covariance (scov) diff:"
+[1] -0.8408583
+T-value:  -8.612011 , p-value: 6.678621e-09 
+[1] "Mutual information:"
+[1] -0.003140124
+T-value:  -0.1964892 , p-value: 0.8450613 
+[1] "Regression/PPI,Beta X on Y diff:"
+[1] -0.03407224
+T-value:  -1.90818 , p-value: 0.06237738 
+[1] "Regression/PPI,Beta Y on X diff:"
+[1] -0.0179039
+T-value:  -0.9401771 , p-value: 0.352172 
+[1] "Spearman correlation:"
+[1] -0.01997186
+T-value:  -1.104049 , p-value: 0.2752019 
