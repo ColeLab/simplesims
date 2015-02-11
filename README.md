@@ -19,3 +19,7 @@ source('CorrelationVsCovarianceSim_WithOtherMeasures.R')
 Before running the code, be sure to have R installed (e.g., RStudio), and that you have the following R packages installed:
 ggplot2, sapa, plyr, entropy, grid
 
+
+An alternate version of the simulation framework for MATLAB is also included:
+CorrelationVsCovarianceSim_matlab.m
+
