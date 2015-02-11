@@ -60,8 +60,8 @@ disp('Y_sim = Y_baseline + shared_inc')
 corrBefore=zeros(numSubjs,1);
 corrAfter=zeros(numSubjs,1);
 for subjNum=1:numSubjs
-    corrBefore(subjNum)=corr(X_baseline(:,subjNum),Y_baseline(:,subjNum));
-    corrAfter(subjNum)=corr(X_sim(:,subjNum),Y_sim(:,subjNum));
+    corrBefore(subjNum)=atanh(corr(X_baseline(:,subjNum),Y_baseline(:,subjNum)));
+    corrAfter(subjNum)=atanh(corr(X_sim(:,subjNum),Y_sim(:,subjNum)));
 end
 [h,pval]=ttest2(corrAfter, corrBefore);
 disp(['Pearson correlation before: ' num2str(mean(corrBefore)) ', After: ' num2str(mean(corrAfter)) '; T-test p-value: ' num2str(pval)])
@@ -96,8 +96,8 @@ disp('Y_sim = Y_baseline')
 corrBefore=zeros(numSubjs,1);
 corrAfter=zeros(numSubjs,1);
 for subjNum=1:numSubjs
-    corrBefore(subjNum)=corr(X_baseline(:,subjNum),Y_baseline(:,subjNum));
-    corrAfter(subjNum)=corr(X_sim(:,subjNum),Y_sim(:,subjNum));
+    corrBefore(subjNum)=atanh(corr(X_baseline(:,subjNum),Y_baseline(:,subjNum)));
+    corrAfter(subjNum)=atanh(corr(X_sim(:,subjNum),Y_sim(:,subjNum)));
 end
 [h,pval]=ttest2(corrAfter, corrBefore);
 disp(['Pearson correlation before: ' num2str(mean(corrBefore)) ', After: ' num2str(mean(corrAfter)) '; T-test p-value: ' num2str(pval)])
@@ -133,8 +133,8 @@ disp('Y_sim = Y_baseline + unsharedY_inc')
 corrBefore=zeros(numSubjs,1);
 corrAfter=zeros(numSubjs,1);
 for subjNum=1:numSubjs
-    corrBefore(subjNum)=corr(X_baseline(:,subjNum),Y_baseline(:,subjNum));
-    corrAfter(subjNum)=corr(X_sim(:,subjNum),Y_sim(:,subjNum));
+    corrBefore(subjNum)=atanh(corr(X_baseline(:,subjNum),Y_baseline(:,subjNum)));
+    corrAfter(subjNum)=atanh(corr(X_sim(:,subjNum),Y_sim(:,subjNum)));
 end
 [h,pval]=ttest2(corrAfter, corrBefore);
 disp(['Pearson correlation before: ' num2str(mean(corrBefore)) ', After: ' num2str(mean(corrAfter)) '; T-test p-value: ' num2str(pval)])
@@ -170,8 +170,8 @@ disp('Y_sim = Y_baseline + unsharedY_inc + shared_inc')
 corrBefore=zeros(numSubjs,1);
 corrAfter=zeros(numSubjs,1);
 for subjNum=1:numSubjs
-    corrBefore(subjNum)=corr(X_baseline(:,subjNum),Y_baseline(:,subjNum));
-    corrAfter(subjNum)=corr(X_sim(:,subjNum),Y_sim(:,subjNum));
+    corrBefore(subjNum)=atanh(corr(X_baseline(:,subjNum),Y_baseline(:,subjNum)));
+    corrAfter(subjNum)=atanh(corr(X_sim(:,subjNum),Y_sim(:,subjNum)));
 end
 [h,pval]=ttest2(corrAfter, corrBefore);
 disp(['Pearson correlation before: ' num2str(mean(corrBefore)) ', After: ' num2str(mean(corrAfter)) '; T-test p-value: ' num2str(pval)])
