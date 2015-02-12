@@ -1,7 +1,7 @@
-covarianceconnectivity
+simplesims
 ======================
 
-Simulation (and analysis) code for using covariance to estimate functional connectivity differences
+Simulation (and analysis) code for testing brain functional connectivity methods
 
 When using these simulations in publications please cite:
 Cole, Yang, Murray, Repovs, Anticevic, "Reconceptualizing brain network change as shared signal dynamics" [full citation forthcoming]
